@@ -1,0 +1,9 @@
+# OctoAcme Project Management Processes
+
+OctoAcme employs a structured project management approach focused on clarity, accountability, iterative delivery, and data-driven improvement. Projects are initiated with a lightweight one-pager capturing the problem, objectives, stakeholders, and success metrics, ensuring alignment before deeper planning begins. Each project’s core artifacts include a prioritized backlog, a definition of done, risk register, and roadmap—supported by kickoff meetings and regular checkpoints to set expectations for delivery.
+
+Key workflows revolve around an organized project board with clear states (Backlog, Ready, In Progress, In Review, QA, Done), strict pull request conventions, and automated CI pipelines for testing, linting, and security. Small, reviewable pull requests are encouraged, each linked to tracked acceptance criteria. Quality assurance is baked in through a mix of automated unit, integration, end-to-end, and manual tests—all must pass before code merges or feature releases.
+
+Roles are well defined: Product Managers own the “what” and “why”; Project Managers own schedule, risk, and communication; Developers build, test, and review; QA ensures deliverables meet criteria; Stakeholders shape requirements and receive ongoing updates. Communication is planned and predictable: daily standups, weekly PM/product syncs, bi-weekly team standups, and monthly stakeholder updates, with fast escalation paths for blockers or incidents.
+
+Progress and risks are monitored using dashboards, velocity/burndown charts, and regular status reports. Releases follow a gated process—requiring CI pass, release notes, stakeholder comms, and rollback plans—and learning is reinforced with structured retros and continuous improvement cycles. Every process is versioned and open for refinement, driving a culture of transparency, learning, and repeatable delivery excellence.
